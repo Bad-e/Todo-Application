@@ -33,7 +33,11 @@ public class taskController {
     public String update(@PathVariable Long id){
         taskModel existingTask = taskRepository.findById(id)
                 .orElseThrow(() -> new RuntimeException("Task not found: " + id));
-        existingTask.setCompleted(true);
+        if(existingTask.isCompleted()){
+            existingTask.setCompleted(false);
+        } else {
+            existingTask.setCompleted(true);
+        }
         taskRepository.save(existingTask);
         return "redirect:/";
     }

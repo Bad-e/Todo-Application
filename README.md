@@ -1,4 +1,4 @@
-<h1 align="center" style="font-weight: bold;">Todo Application</h1>
+<h1 align="center" style="font-weight: bold;">Todo List</h1>
 
 
 <p align="center">

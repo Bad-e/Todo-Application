@@ -5,6 +5,8 @@
     <b>Projeto desenvolvido em Java Spring. Uma api de lista de tarefas, que permite criar, atualizar e deletar tarefas. Frontend básico feito com HTML e CSS.</b>
 </p>
 
+![Imagem do projeto](img.png)
+
 <h2> 💻 Technologies</h2>
 
 - Java 25
